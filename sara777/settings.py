@@ -125,7 +125,7 @@ MEDIA_URL = '/media/'
 STATIC_ROOT = '/Users/khans/Desktop/sara777/static/'
 # /Users/khans\Desktop\sara777\sara777\static'
 SITE_URL = "http://localhost:8000"
-# Default primary key field type
+# Default primary key field typkjnje
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
