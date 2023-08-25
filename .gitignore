@@ -1,0 +1,12 @@
+sara777/settings.py
+sara777/__pycache__
+
+sara/__pycache__
+sara/migrations/__pycache__
+sara/migrations/0001_initial.py
+
+media/
+db.sqlite3
+**/migrations
+**/__pycache__
+__pycache__/*
