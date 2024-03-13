@@ -116,14 +116,13 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
-STATICFILES_DIRS = [STATIC_DIR]
-
-
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
+STATICFILES_DIRS = [STATIC_DIR]
+STATIC_ROOT = '/home/ubuntu/sara777/static'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = '/home/ubuntu/sara777/media'
 MEDIA_URL = '/media/'
+
 SITE_URL = "https://sarra777.com/"
 # Default primary key field typkjnje
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
