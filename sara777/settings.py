@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-4z)ikj#n^7+zu!^)#ayyj7owybk8y@iqig8z&y&$c^6aq&4q$5
 DEBUG = True
 
 ALLOWED_HOSTS = ["13.201.100.49", "sarra777.com", "www.sarra777.com", "sara777.co"]
+# ALLOWED_HOSTS = ["13.201.100.49", "sarra777.com", "www.sarra777.com", "sara777.co", "127.0.0.1"]
 
 
 # Application definition
