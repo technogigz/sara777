@@ -19,3 +19,4 @@ def saraserializers(request):
     serializer = saraserializer(content_data, many=True)
     return Response({'message': 'Success!', 'result': serializer.data}, status=status.HTTP_200_OK)
      
+#1
