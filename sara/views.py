@@ -9,7 +9,7 @@ from .models import Addapplication
 def index(request):
     vardata = Addapplication.objects.all()
     for obj in vardata:
-        return render(request, 'index.html', {'applink':obj.applink, 'whatsapp':obj.whatsapp, 'email':obj.email, 'mobile':obj.mobile})
+        return render(request, 'index.html', {'applink':obj.applinkweb, 'whatsapp':obj.whatsapp, 'email':obj.email, 'mobile':obj.mobile})
     
 
 @decorators.api_view(["GET"])
